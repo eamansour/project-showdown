@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1032843841736924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4354705600994558}
+  - component: {fileID: 114467458670086632}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4354705600994558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032843841736924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114467458670086632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032843841736924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eddd820769ddded47900510e2de1432f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - <name>k__BackingField: Music
+    clip: {fileID: 8300000, guid: 182291f52b12d5947b8759b0802795b4, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 1
+  - <name>k__BackingField: ButtonHover
+    clip: {fileID: 8300000, guid: 0ca9246268742b74fb6dc3c361c606ad, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: ButtonPress
+    clip: {fileID: 8300000, guid: 966a090ca5327004998744fb33c1c082, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: EnemyShoot
+    clip: {fileID: 8300000, guid: 1a0f1b3fa055ec24790a6522b9026d5e, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: MinionShoot
+    clip: {fileID: 8300000, guid: 58051f91b41a62f499d23913e36ae3a3, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: Explosion
+    clip: {fileID: 8300000, guid: e617882aef3199e44991b4d6086d2850, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: CoinCollect
+    clip: {fileID: 8300000, guid: 6c547b127f725a841b36954392fee78b, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: MinionSpawn
+    clip: {fileID: 8300000, guid: ff096aaeca12b684fb2cb59b5986bab5, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: PlayerDamage
+    clip: {fileID: 8300000, guid: e6f5aacd8d4e87d429e5d01d09e760e8, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: MinionDamage
+    clip: {fileID: 8300000, guid: dbf1796b03683734fa4552cc3858bc59, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: TowerDamage
+    clip: {fileID: 8300000, guid: c383b29f68c0d7141a6d800adbd88488, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: EnemyDamage
+    clip: {fileID: 8300000, guid: fe675ad2a4312254aa8e6e4da16a0319, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: GameOver
+    clip: {fileID: 8300000, guid: a64ac9ae786317946af92b08826f8e8c, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: GameWin
+    clip: {fileID: 8300000, guid: f7bdcbc4544918e4fbf9e083fb007c09, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: IncomingMusic
+    clip: {fileID: 8300000, guid: ee4cac9a44db22f408337c8102b9db7d, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+  - <name>k__BackingField: WallSpawn
+    clip: {fileID: 8300000, guid: a5499179b0e75a9409775742890eef09, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
