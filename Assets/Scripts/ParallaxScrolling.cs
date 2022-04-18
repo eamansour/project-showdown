@@ -2,23 +2,24 @@
 
 public class ParallaxScrolling : MonoBehaviour
 {
-    public Transform[] backgrounds;
+    [SerializeField]
+    private Transform[] backgrounds;
 
     private float[] parallaxScales;
 
-    // How smooth the parallax is going to be. Make sure to set this above 0.
-    public float smoothing = 1f;
+    [SerializeField]
+    private float smoothing = 1f;
 
     private Transform cameraTransform;
 
     private Vector3 previousCamPos;
 
-    void Awake()
+    private void Awake()
     {
         cameraTransform = Camera.main.transform;
     }
 
-    void Start()
+    private void Start()
     {
         previousCamPos = cameraTransform.position;
         parallaxScales = new float[backgrounds.Length];
@@ -29,7 +30,7 @@ public class ParallaxScrolling : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         for (int i = 0; i < backgrounds.Length; i++)
         {

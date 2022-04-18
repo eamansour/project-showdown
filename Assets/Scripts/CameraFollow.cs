@@ -15,12 +15,12 @@ public class CameraFollow : MonoBehaviour
 
     private Transform target;
 
-	void Start ()
+	private void Start()
     {
         target = GameObject.Find("Player").transform;
 	}
 	
-	void LateUpdate ()
+	private void LateUpdate()
     {
         if (!target) return;
 
