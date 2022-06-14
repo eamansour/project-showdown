@@ -1,4 +1,4 @@
-# ProjectShowdown
+# Project Showdown
 "Project Showdown" is a 2D side-scrolling tower defence game created as part of my A-Level Computer Science course.
 
 ## Setup
